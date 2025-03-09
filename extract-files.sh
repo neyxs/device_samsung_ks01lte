@@ -55,9 +55,10 @@ export SRC
 
 setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}" false
 
-for BLOB_LIST in "${MY_DIR}"/device-proprietary-files*.txt; do
-    extract "${BLOB_LIST}" "${SRC}"
-done
+extract "${MY_DIR}/device-proprietary-files.txt" "${SRC}"
+#for BLOB_LIST in "${MY_DIR}"/device-proprietary-files*.txt; do
+#    extract "${BLOB_LIST}" "${SRC}"
+#done
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
 

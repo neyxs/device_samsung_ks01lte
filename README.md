@@ -38,12 +38,16 @@ Release Date | November 2013
     fetch="https://github.com/LineageOS"
     revision="lineage-21" />
 
+ <remote  name="neyxs"
+    fetch="https://github.com/neyxs"
+    revision="lineage-21" />
+
     <!--LineageOS -->
     <project name="android_hardware_samsung" path="hardware/samsung" remote="linos" />
               
     <!--Device -->
-    <project name="device_samsung_ks01lte" path="device/samsung/ks01lte" remote="khalvat" />
-    <project name="device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="khalvat" />
+    <project name="device_samsung_ks01lte" path="device/samsung/ks01lte" remote="neyxs" />
+    <project name="device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="neyxs" />
            
     <!--Kernel -->
     <project name="kernel_samsung_msm8974" path="kernel/samsung/msm8974" remote="khalvat" />

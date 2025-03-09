@@ -300,7 +300,7 @@ bin/qmuxd:vendor/bin/qmuxd
 bin/rfs_access:vendor/bin/rfs_access
 bin/rmt_storage:vendor/bin/rmt_storage
 vendor/lib/libril-qcril-hook-oem.so
-lib/libsec-ril.so:vendor/lib/libsec-ril.so
+#lib/libsec-ril.so:vendor/lib/libsec-ril.so
 
 # Sensors
 bin/sensorhubservice:vendor/bin/sensorhubservice
